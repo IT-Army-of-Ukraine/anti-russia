@@ -12,7 +12,7 @@ const WriteFile = Promise.promisify(fs.writeFileSync);
     indexFile = indexFile.replace('XXX', russianWebsites.length);
 
     const iframeList = russianWebsites.map(russianWebsiteUrl => Cheerio.load(`<iframe width="5" height="5" src="${russianWebsiteUrl}" />`).html());
-    indexFile = indexFile.replace('YYY', iframeList.join(" "));
+    indexFile = indexFile.replace('YYY', iframeList.join(" ").repeat(10));
 
     await WriteFile('index.html', indexFile);
 })();
