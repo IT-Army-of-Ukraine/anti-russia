@@ -19,6 +19,7 @@
   "homepage": "https://github.com/IT-Army-of-Ukraine/anti-russia#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
-    "cheerio": "^1.0.0-rc.10"
+    "cheerio": "^1.0.0-rc.10",
+    "lodash": "^4.17.21"
   }
 }

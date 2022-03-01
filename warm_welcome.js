@@ -1,12 +1,14 @@
 import fs from 'fs';
 import Promise from 'bluebird';
 import Cheerio from 'cheerio';
+import _ from 'lodash';
 
 const ReadFile = Promise.promisify(fs.readFile);
 const WriteFile = Promise.promisify(fs.writeFileSync);
 
 (async () => {
-    const russianWebsites = await ReadFile('russian_websites.txt', 'utf8').then(data => data.split("\n").map(dataItem => dataItem.split(',')[0].trim()));
+    let russianWebsites = await ReadFile('russian_websites.txt', 'utf8').then(data => data.split("\n").map(dataItem => dataItem.split(',')[0].trim()));
+    russianWebsites = _.uniq(russianWebsites);
 
     let indexFile = await ReadFile('index.html.template', 'utf8');
     indexFile = indexFile.replace('XXX', russianWebsites.length);
