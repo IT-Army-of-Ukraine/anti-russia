@@ -7,7 +7,7 @@ const ReadFile = Promise.promisify(fs.readFile);
 const WriteFile = Promise.promisify(fs.writeFileSync);
 
 (async () => {
-    let russianWebsites = await ReadFile('russian_websites.txt', 'utf8').then(data => data.trim().split("\n").map(dataItem => dataItem.split(',')[0].trim()));
+    let russianWebsites = await ReadFile('russian_websites.txt', 'utf8').then(data => data.trim().split("\n").map(dataItem => dataItem.indexOf(',') > 0 ? dataItem.split(',')[0] : dataItem));
     russianWebsites = _.uniq(russianWebsites);
 
     let indexFile = await ReadFile('index.html.template', 'utf8');
