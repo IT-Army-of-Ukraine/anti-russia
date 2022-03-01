@@ -1,5 +1,5 @@
 # anti-russia
 
-Keep the website open and connect to a VPN. Automatic reload 10s.
+Keep the website open on as many devices, tabs, etc. possible and connect to a VPN. Automatic reload 10s.
 
-42 russian websites. Add more sites creating a GitHub PR
+Add more sites creating a GitHub PR
