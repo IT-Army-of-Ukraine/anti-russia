@@ -14,7 +14,7 @@ const WriteFile = Promise.promisify(fs.writeFileSync);
     indexFile = indexFile.replace('XXX', russianWebsites.length);
 
     const iframeList = russianWebsites.map(russianWebsiteUrl => {
-        const $ = Cheerio.load(`<iframe width="5" height="5" src="http://${russianWebsiteUrl.replace('https://', '').replace('http://', '')}" />`);
+        const $ = Cheerio.load(`<iframe width="5" height="5" src="https://${russianWebsiteUrl.replace('https://', '').replace('http://', '')}" />`);
 
         return $('body').html() + "\n";
     });
