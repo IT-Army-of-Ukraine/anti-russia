@@ -1,4 +1,4 @@
-name: Scrape latest
+name: Build
 
 on:
     push:
