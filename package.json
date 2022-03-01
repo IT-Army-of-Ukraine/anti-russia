@@ -1,0 +1,24 @@
+{
+  "name": "anti-russia",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node warm_welcome.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT-Army-of-Ukraine/anti-russia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/IT-Army-of-Ukraine/anti-russia/issues"
+  },
+  "homepage": "https://github.com/IT-Army-of-Ukraine/anti-russia#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}

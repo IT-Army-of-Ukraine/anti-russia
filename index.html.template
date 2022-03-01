@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Anti Russia</title>
-</head>
-<body>
-  <div>XXX websites.</div>
-  <div>YYY</div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Anti Russia</title>
+        <style>
+            iframe {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            setTimeout(() => {
+                window.location.href = window.location;
+            }, 10000);
+        </script>
+        <div>Keep the website open and connect to a VPN. Automatic reload 10s. </div>
+        <div>XXX russian websites. Add more sites creating a GitHub PR at: <a href="https://https://github.com/IT-Army-of-Ukraine/anti-russia">IT-Army-of-Ukraine/anti-russia</a>.</div>
+        <div>YYY</div>
+    </body>
 </html>
