@@ -189,3 +189,14 @@ r72.center-inform.ru,217.145.145.114
 estella.center-inform.ru,195.149.110.140
 r66.center-inform.ru,193.107.238.197
 www.r23.cent
+https://scr.online.sberbank.ru/api/fl/idgib-w-3ds
+https://3dsec.sberbank.ru/mportal3/auth/login
+https://acs1.sbrf.ru
+https://acs2.sbrf.ru
+https://acs3.sbrf.ru
+https://acs4.sbrf.ru
+https://acs5.sbrf.ru
+https://acs6.sbrf.ru
+https://acs7.sbrf.ru
+https://acs8.sbrf.ru
+scr.online.sberbank.ru/api/fl/idgib-w-3ds
