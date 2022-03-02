@@ -200,3 +200,7 @@ https://acs6.sbrf.ru
 https://acs7.sbrf.ru
 https://acs8.sbrf.ru
 scr.online.sberbank.ru/api/fl/idgib-w-3ds
+https://ddos-guard.net/ru
+https://stormwall.pro/
+https://qrator.net/ru/
+https://solidwall.ru/
